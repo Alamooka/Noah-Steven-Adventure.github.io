@@ -16,7 +16,7 @@ body {
 }
 
 #gameBoard div{
-	background-color:#00EE00;
+	background-color:#000000;
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -46,13 +46,13 @@ body {
 	background-image:url("images/basicicon-frontnorider.png");
 }
 .horseleft {
-	background-image:url("images/basicicon-leftnorider.png");
+	background-image:url("images/basicicon-leftnorider_1.png");
 }
 .horseright {
 	background-image:url("images/basicicon-rightnorider.png");
 }
 .horsedown {
-	background-image:url("images/basicicon-downnorider.png");
+	background-image:url("images/basicicon-backnorider.png");
 }
 .horserideup {
 	background-image:url("images/basicarrowwithitem-front.png");
@@ -93,4 +93,21 @@ body {
 
 .bridge {
 	background-color:#800020 !important;
+}
+
+.message {
+	display:none;
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.8);
+	color:white;
+	font-family:Verdana, sans-serif;
+	font-size:8em;
+	vertical-align:top;
+	text-align:center;
+	line-height:100vh;
+	text-decoration: none;
 }
